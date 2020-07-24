@@ -24,6 +24,12 @@ Scrape a Wikipedia page and record which passages need citations (e.g. [History 
 - Module must be named __`scraper.py`__
 
 ## Attributions and Citations
-
-[Page under test](https://en.wikipedia.org/wiki/NASA) courtesy of Wikipedia. <br>
-.gitignore content courtesy of https://www.toptal.com/developers/gitignore/api/python
+[Page under test - production](https://en.wikipedia.org/wiki/NASA) courtesy of Wikipedia. <br>
+[Page under test - comparison testing](https://en.wikipedia.org/wiki/History_of_Mexico) also courtesy of Wikipedia. <br>
+- Merry Cimakasky helped with soup drill-down and testing
+- Natalie Sinner helped with soup.find_parent code
+- RealPython help:
+https://realpython.com/beautiful-soup-web-scraper-python/#find-elements-by-html-class-name
+- bs4 docs:
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-parents-and-find-parent
+- .gitignore content courtesy of https://www.toptal.com/developers/gitignore/api/python
