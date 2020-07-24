@@ -39,10 +39,13 @@ def get_citations_needed_count(URL):
 
 def get_citations_needed_report(URL):
     cite_report = drill_down(URL)
-    citation_text = [c.parent.text.replace('[citation needed]', '') for c in cite_report]
-    print(citation_text)
+    citation_text = [citation.parent.text.replace('[citation needed]', '') for citation in cite_report]
+    # print(citation_text)
     # Use list and string methods to break out the citation_text list into individual strings.
-
+    # passage = [citation_text.copy.reverse for passage in range(len(citation_text)-1)]
+    break_text = [(citation_text[i].strip()) for i in range(len(citation_text))]
+    rl = '\n\n'.join([(break_text[i]) for i in range(len(break_text))])
+    return rl
 
 
 
